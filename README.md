@@ -1,1 +1,0 @@
-# feh-bg-generator.github.io
