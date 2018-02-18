@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    width: 520px;
+    margin: 20px;
+}
+
+#app {
+    margin: 10px;
+}
+
+.inline {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.disabled {
+    background: #f1f1f1;
+}
+
+img {
+    position: relative;
+    left: 5px;
+    top: 5px;
+}
