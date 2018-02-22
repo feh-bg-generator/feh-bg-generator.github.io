@@ -15,7 +15,7 @@
     <div id="app" class="inline">
         <label>Hero</label>
         <select @change="render()" v-model="hero" :disabled="disabled" :class="{ disabled: disabled }">
-            <option v-for="hero in heroes" :value="hero.name.replace(/\s/g, '_')">{{hero.name}}</option>
+            <option v-for="hero in heroes" :value="hero.replace(/\s/g, '_')">{{hero}}</option>
         </select>
         <img src="img/preloader.gif" alt="" v-if="disabled" width="20">
         <label>Portrait Sprite Position X</label>
@@ -33,7 +33,7 @@
        <a @click="download(this.download);" id="download"><input type="button" value="Download" :disabled="disabled" :class="{ disabled: disabled }"></a>
     </div>
         <script src="js/vue.min.js"></script>
-        <script src="js/data-heroes.js"></script>
+        <script src="js/heroes.js"></script>
         <script src="js/app.js"></script>
 </body>
 </html>
