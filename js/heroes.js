@@ -61,6 +61,7 @@ const HEROES = [
     "Eliwood",
     "Eliwood (Love Abounds)",
     "Ephraim",
+    "Ephraim (Legendary Lord)",
     "Est",
     "Fae",
     "Faye",
