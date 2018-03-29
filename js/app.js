@@ -36,7 +36,7 @@ var app = new Vue({
         this.disabled = true;
         render(`img/heroes/Full_Portrait_${this.hero}.png`, `img/heroes/Full_Attack_${this.hero}.png`, this.pPosX, this.pPosY, this.aPosX, this.aPosY, this.logoPosX, this.logoPosY, this.pWidth, Math.round(this.pWidth / this.ratio), this.aWidth,  Math.round(this.aWidth / this.ratio));
     }
-})
+});
 
 function render(portrait, attack, pPosX, pPosY, aPosX, aPosY, logoPosX, logoPosY, pWidth, pHeight, aWidth, aHeight) {
     bg.onload = () => {
