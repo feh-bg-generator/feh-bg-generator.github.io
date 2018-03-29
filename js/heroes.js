@@ -180,6 +180,7 @@ const HEROES = [
     "Rhajat",
     "Robin (F)",
     "Robin (F) (Ylissean Summer)",
+    "Robin (F) (Fell Vessel)",
     "Robin (M)",
     "Robin (M) (Fallen Heroes)",
     "Robin (M) (Winter's Envoy)",
