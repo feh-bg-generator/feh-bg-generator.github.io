@@ -124,7 +124,7 @@ const HEROES = [
     "Linde",
     "Lissa",
     "Lissa (Winter's Envoy)",
-    "Lief",
+    "Leif",
     "Lloyd",
     "Loki",
     "Lon'qu",
