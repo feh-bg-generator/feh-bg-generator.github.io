@@ -196,6 +196,7 @@ const HEROES = [
     "Ryoma",
     "Saber",
     "Saizo",
+    "Saias",
     "Sakura",
     "Sakura (Trick or Defeat!)",
     "Sanaki",
