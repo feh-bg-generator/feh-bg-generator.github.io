@@ -14,11 +14,15 @@
 <body>
     <canvas id="canvas" width="720" height="1280" class="inline"></canvas>
     <div id="app" class="inline">
-        <label>Hero</label>
-        <select @change="render()" v-model="hero" :disabled="disabled" :class="{ disabled: disabled }">
+        <label>Hero Portrait</label>
+        <select @change="render()" v-model="heroP" :disabled="disabled" :class="{ disabled: disabled }">
             <option v-for="hero in heroes" :value="hero.replace(/\s/g, '_')">{{hero}}</option>
         </select>
         <img src="img/preloader.gif" alt="" v-if="disabled" width="20">
+        <label>Hero Attack</label>
+        <select @change="render()" v-model="heroA" :disabled="disabled" :class="{ disabled: disabled }">
+            <option v-for="hero in heroes" :value="hero.replace(/\s/g, '_')">{{hero}}</option>
+        </select>
         <label>Portrait Sprite Position X</label>
         <input type="range" v-model="pPosX" @change="render()" min="-500" max="0" step="1" :disabled="disabled">
         <label>Portrait Sprite Position Y</label>
