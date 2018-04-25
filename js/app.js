@@ -31,7 +31,11 @@ var app = new Vue({
         },
         download(link) {
             link.href = canvas.toDataURL('image/jpeg', 1.0);
-            link.download = `${this.hero}.jpg`;
+            if (this.heroP == this.heroA) {
+                link.download = `${this.heroP}.jpg`;
+            } else {
+                link.download = `${this.heroP}_${this.heroA}.jpg`;
+            }
         }
     },
     mounted: function() {
