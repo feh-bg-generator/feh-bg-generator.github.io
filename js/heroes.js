@@ -143,6 +143,7 @@ const HEROES = [
     "Lyn (Brave Heroes)",
     "Lyn (Bridal Blessings)",
     "Lyn (Love Abounds)",
+    "Lyn (Lady of the Wind)",
     "Lyon",
     "Mae",
     "Maria",
