@@ -101,7 +101,7 @@ const HEROES = [
     "Ike (Vanguard Legend)",
     "Inigo (Performing Arts)",
     "Innes",
-    "Ishtar"
+    "Ishtar",
     "Jaffar",
     "Jagen",
     "Jakob",
