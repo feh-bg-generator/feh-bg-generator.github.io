@@ -206,6 +206,7 @@ const HEROES = [
     "Roy (Brave Heroes)",
     "Roy (Love Abounds)",
     "Ryoma",
+    "Ryoma Supreme Samurai",
     "Saber",
     "Saizo",
     "Saias",
