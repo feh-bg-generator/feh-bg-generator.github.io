@@ -17,7 +17,7 @@ var app = new Vue({
         aPosY: 0,
         logoPosX: 380,
         logoPosY: 1150,
-        heroes: HEROES,
+        heroes: HEROES.sort(),
         heroP: 'Abel_The_Panther',
         heroA: 'Abel_The_Panther',
         disabled: false
