@@ -16,12 +16,12 @@
     <div id="app" class="inline">
         <label>Hero Portrait</label>
         <select @change="render()" v-model="heroP" :disabled="disabled" :class="{ disabled: disabled }">
-            <option v-for="hero in heroes" :value="hero.replace(/\s/g, '_')">{{hero}}</option>
+            <option v-for="hero in heroes" :value="hero.replace(/\s/g, '_').replace(/\:/g, '')">{{hero}}</option>
         </select>
         <img src="img/preloader.gif" alt="" v-if="disabled" width="20">
         <label>Hero Attack</label>
         <select @change="render()" v-model="heroA" :disabled="disabled" :class="{ disabled: disabled }">
-            <option v-for="hero in heroes" :value="hero.replace(/\s/g, '_')">{{hero}}</option>
+            <option v-for="hero in heroes" :value="hero.replace(/\s/g, '_').replace(/\:/g, '')">{{hero}}</option>
         </select>
         <label>Portrait Sprite Position X</label>
         <input type="range" v-model="pPosX" @change="render()" min="-500" max="0" step="1" :disabled="disabled">
