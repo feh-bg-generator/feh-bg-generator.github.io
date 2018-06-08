@@ -25,8 +25,8 @@ var app = new Vue({
     methods: {
         render() {
             this.disabled = true;
-            this.heroP = this.heroP.replace(/\s/g, '_');
-            this.heroA = this.heroA.replace(/\s/g, '_');
+            this.heroP = this.heroP.replace(/\s/g, '_').replace(/\:/g, '');
+            this.heroA = this.heroA.replace(/\s/g, '_').replace(/\:/g, '');
             render(`img/img/P_${this.heroP}.png`, `img/img/A_${this.heroA}.png`, this.pPosX, this.pPosY, this.aPosX, this.aPosY, this.logoPosX, this.logoPosY, this.pWidth, Math.round(this.pWidth / this.ratio), this.aWidth,  Math.round(this.aWidth / this.ratio));
         },
         download(link) {
