@@ -252,5 +252,10 @@ const HEROES = [
     "Xander: Spring Prince",
     "Xander: Student Swimmer",
     "Zelgius: Jet-Black General",
-    "Zephiel: The Liberator"
+    "Zephiel: The Liberator",
+    "Nino: Pale Flower",
+    "Legault: The Hurricane",
+    "Karla: Sword Vassal",
+    "Linus: Mad Dog",
+    "Canas: Seeker of Wisdom"
  ]
