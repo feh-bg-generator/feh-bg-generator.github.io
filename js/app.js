@@ -18,8 +18,8 @@ var app = new Vue({
         logoPosX: 380,
         logoPosY: 1150,
         heroes: HEROES,
-        heroP: 'Abel_The_Panther',
-        heroA: 'Abel_The_Panther',
+        heroP: 'Abel: The Panther',
+        heroA: 'Abel: The Panther',
         disabled: false
     },
     methods: {
