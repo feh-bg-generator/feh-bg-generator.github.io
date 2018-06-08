@@ -18,8 +18,8 @@ var app = new Vue({
         logoPosX: 380,
         logoPosY: 1150,
         heroes: HEROES,
-        heroP: 'Abel',
-        heroA: 'Abel',
+        heroP: 'Abel_The_Panther',
+        heroA: 'Abel_The_Panther',
         disabled: false
     },
     methods: {
@@ -27,7 +27,7 @@ var app = new Vue({
             this.disabled = true;
             this.heroP = this.heroP.replace(/\s/g, '_');
             this.heroA = this.heroA.replace(/\s/g, '_');
-            render(`img/heroes/Full_Portrait_${this.heroP}.png`, `img/heroes/Full_Attack_${this.heroA}.png`, this.pPosX, this.pPosY, this.aPosX, this.aPosY, this.logoPosX, this.logoPosY, this.pWidth, Math.round(this.pWidth / this.ratio), this.aWidth,  Math.round(this.aWidth / this.ratio));
+            render(`img/img/P_${this.heroP}.png`, `img/img/A_${this.heroA}.png`, this.pPosX, this.pPosY, this.aPosX, this.aPosY, this.logoPosX, this.logoPosY, this.pWidth, Math.round(this.pWidth / this.ratio), this.aWidth,  Math.round(this.aWidth / this.ratio));
         },
         download(link) {
             link.href = canvas.toDataURL('image/jpeg', 1.0);
@@ -40,7 +40,7 @@ var app = new Vue({
     },
     mounted: function() {
         this.disabled = true;
-        render(`img/heroes/Full_Portrait_${this.heroP}.png`, `img/heroes/Full_Attack_${this.heroA}.png`, this.pPosX, this.pPosY, this.aPosX, this.aPosY, this.logoPosX, this.logoPosY, this.pWidth, Math.round(this.pWidth / this.ratio), this.aWidth,  Math.round(this.aWidth / this.ratio));
+        render(`img/img/P_${this.heroP}.png`, `img/img/A_${this.heroA}.png`, this.pPosX, this.pPosY, this.aPosX, this.aPosY, this.logoPosX, this.logoPosY, this.pWidth, Math.round(this.pWidth / this.ratio), this.aWidth,  Math.round(this.aWidth / this.ratio));
     }
 });
 
