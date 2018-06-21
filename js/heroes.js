@@ -257,5 +257,9 @@ const HEROES = [
     "Legault: The Hurricane",
     "Karla: Sword Vassal",
     "Linus: Mad Dog",
-    "Canas: Seeker of Wisdom"
+    "Canas: Seeker of Wisdom",
+    "Cordelia: Knight Paradise",
+    "Innes: Flawless Form",
+    "Noire: Shade Seeker",
+    "Tana: Noble and Nimble"
  ]
