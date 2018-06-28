@@ -261,5 +261,6 @@ const HEROES = [
     "Cordelia: Knight Paradise",
     "Innes: Flawless Form",
     "Noire: Shade Seeker",
-    "Tana: Noble and Nimble"
+    "Tana: Noble and Nimble",
+    "Hector: Marquess of Ostia"
  ]
