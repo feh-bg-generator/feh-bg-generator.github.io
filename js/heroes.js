@@ -263,4 +263,13 @@ const HEROES = [
     "Noire: Shade Seeker",
     "Tana: Noble and Nimble",
     "Hector: Marquess of Ostia"
+    "Walhart: The Conqueror",
+    "Libra: Fetching Friar",
+    "Sumia: Maid of Flowers",
+    "Maribelle: Dire Damsel",
+    "Olivia: Sky-High Dancer",
+    "Linde: Summer Rays",
+    "Tiki: Beachside Scion",
+    "Takumi: Prince at Play",
+    "Camilla: Tropical Beauty"
  ]
