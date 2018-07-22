@@ -262,7 +262,7 @@ const HEROES = [
     "Innes: Flawless Form",
     "Noire: Shade Seeker",
     "Tana: Noble and Nimble",
-    "Hector: Marquess of Ostia"
+    "Hector: Marquess of Ostia",
     "Walhart: The Conqueror",
     "Libra: Fetching Friar",
     "Sumia: Maid of Flowers",
