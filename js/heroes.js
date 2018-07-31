@@ -271,5 +271,6 @@ const HEROES = [
     "Linde: Summer Rays",
     "Tiki: Beachside Scion",
     "Takumi: Prince at Play",
-    "Camilla: Tropical Beauty"
+    "Camilla: Tropical Beauty",
+    "Lucina: Glorious Archer"
  ]
