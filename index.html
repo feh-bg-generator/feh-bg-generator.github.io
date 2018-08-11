@@ -40,7 +40,7 @@
         <input type="range" v-model="logoPosX" @change="render()" min="-500" max="500" step="1" :disabled="disabled">
         <label>Logo Position Y</label>
         <input type="range" v-model="logoPosY" @change="render()" min="0" max="1280" step="1" :disabled="disabled"><br>
-       <a @click="download(this.download);" id="download"><input type="button" value="Download (1280x720)" :disabled="disabled" :class="{ disabled: disabled }"></a>
+       <a @click="download(this.download);" id="download"><input type="button" value="Download (720x1280)" :disabled="disabled" :class="{ disabled: disabled }"></a>
     </div>
         <script src="js/vue.min.js"></script>
         <script src="js/heroes.js"></script>
