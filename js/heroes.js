@@ -272,5 +272,9 @@ const HEROES = [
     "Tiki: Beachside Scion",
     "Takumi: Prince at Play",
     "Camilla: Tropical Beauty",
-    "Lucina: Glorious Archer"
+    "Lucina: Glorious Archer",
+    "Xander: Dancing Knight",
+    "Elincia: Estival Princess",
+    "Ryoma: Dancing Samurai",
+    "Micaiah: Summer's Dawn"
  ]
