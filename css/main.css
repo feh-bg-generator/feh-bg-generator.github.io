@@ -30,4 +30,6 @@ img {
 canvas {
     transform: scale(0.6);
     border-radius: 30px;
+    top: -200px;
+    position: relative;
 }
