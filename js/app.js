@@ -27,7 +27,7 @@ var app = new Vue({
             this.disabled = true;
             this.heroP = this.heroP.replace(/\s/g, '_').replace(/\:/g, '');
             this.heroA = this.heroA.replace(/\s/g, '_').replace(/\:/g, '');
-            render(`img/heroes/P_${this.heroP}.png`, `img/heroes/A_${this.heroA}.png`, this.pPosX, this.pPosY, this.aPosX, this.aPosY, this.logoPosX, this.logoPosY, this.pWidth, Math.round(this.pWidth / this.ratio), this.aWidth,  Math.round(this.aWidth / this.ratio));
+            render(`img/img/P_${this.heroP}.png`, `img/img/A_${this.heroA}.png`, this.pPosX, this.pPosY, this.aPosX, this.aPosY, this.logoPosX, this.logoPosY, this.pWidth, Math.round(this.pWidth / this.ratio), this.aWidth,  Math.round(this.aWidth / this.ratio));
         },
         download(link) {
             link.href = canvas.toDataURL('image/jpeg', 1.0);
@@ -42,7 +42,7 @@ var app = new Vue({
         canvas.width = 720;
         canvas.height = 1280;
         this.disabled = true;
-        render(`img/heroes/P_${this.heroP}.png`, `img/heroes/A_${this.heroA}.png`, this.pPosX, this.pPosY, this.aPosX, this.aPosY, this.logoPosX, this.logoPosY, this.pWidth, Math.round(this.pWidth / this.ratio), this.aWidth,  Math.round(this.aWidth / this.ratio));
+        render(`img/img/P_${this.heroP}.png`, `img/img/A_${this.heroA}.png`, this.pPosX, this.pPosY, this.aPosX, this.aPosY, this.logoPosX, this.logoPosY, this.pWidth, Math.round(this.pWidth / this.ratio), this.aWidth,  Math.round(this.aWidth / this.ratio));
     }
 });
 
