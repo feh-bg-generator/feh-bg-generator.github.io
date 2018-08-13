@@ -1,37 +1,40 @@
+@media only screen and (min-width: 900px) {
+    body {
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    body {
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+}
+
+
 body {
     background-image: url(../img/cont4_bg.jpg);
-    min-width: 1200px;
+    color: #f3cc00;
 }
 
 .container {
-    color: #f3cc00;
-    transform: scale(0.95);
-    left: -150px;
+    margin-top: 50px;
 }
 
-#phone {
-    width: 100%;
-    height: 100%;
-    transform: scale(0.86);
+#preview {
+    background-image: url(../img/phone.png);
+    width: 340px;
+    height: 640px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
 }
 
-#canvas {
-    position: absolute;
-    top: -160px;
-    left: 119px;
-    transform: scale(0.51);
-}
-
-#app {
-    position: absolute;
-    right: -180px;
-    top: 50px;
-    width: 400px;
-}
-
-input {
-    width: 100%;
-    margin: 20px;
+canvas {
+    transform: scale(0.4);
+    top: -320px;
+    position: relative;
+    left: -189px;
 }
 
 .dwn-btn {
@@ -88,10 +91,4 @@ input[type="range"]::-moz-range-thumb {
 
 ::-webkit-scrollbar-thumb {
     background: #f3cc00; 
-}
-
-#logo {
-    position: absolute;
-    left: 50px;
-    top: 180px;
 }
