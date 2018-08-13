@@ -1,5 +1,6 @@
 body {
     background-image: url(../img/cont4_bg.jpg);
+    min-width: 1200px;
 }
 
 .container {
