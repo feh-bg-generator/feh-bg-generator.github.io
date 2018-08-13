@@ -276,5 +276,12 @@ const HEROES = [
     "Xander: Dancing Knight",
     "Elincia: Estival Princess",
     "Ryoma: Dancing Samurai",
-    "Micaiah: Summer's Dawn"
+    "Micaiah: Summer's Dawn",
+    "Bruno: Masked Knight",
+    "Helbindi: Savage Scourge",
+    "Laegjarn: Sheathed Steel",
+    "Laevatein: Searing Steel",
+    "Loki: The Trickster",
+    "Surtr: Ruler of Flame",
+    "Veronica: Emblian Princess"
  ]
