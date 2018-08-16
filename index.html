@@ -29,9 +29,7 @@
                     <div class="six columns">
                         <label>Background</label>
                         <select @change="render()" v-model="bgImage" :disabled="disabled" :class="{ disabled: disabled }" class="u-full-width">
-                            <option value="0">Default</option>
-                            <option value="1">Flowers</option>
-                            <option value="2">Snow</option>
+                            <option v-for="(bg, i) in bgList" :value="i">{{bg}}</option>
                         </select>
                     </div>
                 </div>
