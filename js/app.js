@@ -20,14 +20,16 @@ var app = new Vue({
         heroes: HEROES.sort(),
         heroP: 'Abel_The_Panther',
         heroA: 'Abel_The_Panther',
-        disabled: false
+        disabled: false,
+        bgImage: 0,
+        op: 0.4
     },
     methods: {
         render() {
             this.disabled = true;
             this.heroP = this.heroP.replace(/\s/g, '_').replace(/\:/g, '');
             this.heroA = this.heroA.replace(/\s/g, '_').replace(/\:/g, '');
-            render(`img/img/P_${this.heroP}.png`, `img/img/A_${this.heroA}.png`, this.pPosX, this.pPosY, this.aPosX, this.aPosY, this.logoPosX, this.logoPosY, this.pWidth, Math.round(this.pWidth / this.ratio), this.aWidth,  Math.round(this.aWidth / this.ratio));
+            render(`img/img/P_${this.heroP}.png`, `img/img/A_${this.heroA}.png`, this.pPosX, this.pPosY, this.aPosX, this.aPosY, this.logoPosX, this.logoPosY, this.pWidth, Math.round(this.pWidth / this.ratio), this.aWidth,  Math.round(this.aWidth / this.ratio), this.bgImage, this.op);
         },
         download(link) {
             link.href = canvas.toDataURL('image/jpeg', 1.0);
@@ -42,16 +44,16 @@ var app = new Vue({
         canvas.width = 720;
         canvas.height = 1280;
         this.disabled = true;
-        render(`img/img/P_${this.heroP}.png`, `img/img/A_${this.heroA}.png`, this.pPosX, this.pPosY, this.aPosX, this.aPosY, this.logoPosX, this.logoPosY, this.pWidth, Math.round(this.pWidth / this.ratio), this.aWidth,  Math.round(this.aWidth / this.ratio));
+        render(`img/img/P_${this.heroP}.png`, `img/img/A_${this.heroA}.png`, this.pPosX, this.pPosY, this.aPosX, this.aPosY, this.logoPosX, this.logoPosY, this.pWidth, Math.round(this.pWidth / this.ratio), this.aWidth,  Math.round(this.aWidth / this.ratio), this.bgImage, this.op);
     }
 });
 
-function render(portrait, attack, pPosX, pPosY, aPosX, aPosY, logoPosX, logoPosY, pWidth, pHeight, aWidth, aHeight) {
+function render(portrait, attack, pPosX, pPosY, aPosX, aPosY, logoPosX, logoPosY, pWidth, pHeight, aWidth, aHeight, bgImage, op) {
     bg.onload = () => {
         ctx.drawImage(bg, 0, 0);
         s1.onload = () => {
             ctx.drawImage(s1, 0, 0, 1600, 1920, aPosX, aPosY, aWidth, aHeight);
-            ctx.fillStyle = 'rgba(0, 0, 0, 0.4)';
+            ctx.fillStyle = `rgba(0, 0, 0, ${op})`;
             ctx.fillRect(0, 0, 720, 1280);
             s2.onload = () => {
                 ctx.drawImage(s2, 0, 0, 1600, 1920, pPosX, pPosY, pWidth, pHeight);
@@ -65,5 +67,5 @@ function render(portrait, attack, pPosX, pPosY, aPosX, aPosY, logoPosX, logoPosY
         }
         s1.src = attack;
     }
-    bg.src = 'img/bg.jpg';
+    bg.src = `img/bg${bgImage}.jpg`;
 }
