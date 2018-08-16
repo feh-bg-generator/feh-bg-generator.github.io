@@ -22,7 +22,8 @@ var app = new Vue({
         heroA: 'Abel_The_Panther',
         disabled: false,
         bgImage: 0,
-        op: 0.4
+        op: 0.4,
+        bgList: ["Default", "Flowers", "Snow", "Halloween"]
     },
     methods: {
         render() {
