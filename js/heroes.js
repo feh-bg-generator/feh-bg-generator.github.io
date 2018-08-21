@@ -283,5 +283,9 @@ const HEROES = [
     "Laevatein: Searing Steel",
     "Loki: The Trickster",
     "Surtr: Ruler of Flame",
-    "Veronica: Emblian Princess"
+    "Veronica: Emblian Princess",
+    "Veronica: Brave Princess",
+    "Ephraim: Sacred Twin Lord",
+    "Celica: Warrior Priestess",
+    "Hector: Brave Warrior"
  ]
