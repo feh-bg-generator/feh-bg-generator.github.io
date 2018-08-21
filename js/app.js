@@ -23,7 +23,7 @@ var app = new Vue({
         disabled: false,
         bgImage: 0,
         op: 0.4,
-        bgList: ["Default", "Flowers", "Snow", "Halloween"]
+        bgList: ["Default", "Flowers", "Snow", "Halloween", "Forest"]
     },
     methods: {
         render() {
